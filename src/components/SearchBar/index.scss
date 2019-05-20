@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+
+.SearchBar {
+	background: $darker;
+	bottom: 0;
+	color: $light;
+	display: flex;
+	position: fixed;
+	width: 100%;
+
+	&__nav,
+	&__filter {
+		background: transparent;
+		border: none;
+		color: $light;
+		height: $searchBarHeight;
+		width: $searchBarHeight;
+	}
+
+	&__search {
+		flex-grow: 1;
+
+		input {
+			padding: 0 1em;
+			height: 100%;
+			width: 100%;
+		}
+	}
+}

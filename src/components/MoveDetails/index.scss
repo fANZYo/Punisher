@@ -1,0 +1,13 @@
+@import '../../styles/variables';
+
+.CharDetails {
+	&__button {
+		background: linear-gradient(to bottom, rgba(0, 0, 0, .25), transparent);
+		border: 1px solid rgba($mid, .5);
+		border-bottom: 0;
+		color: $light;
+		padding: 1em;
+		text-align: left;
+		width: 100%;
+	}
+}
